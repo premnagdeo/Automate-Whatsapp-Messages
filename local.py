@@ -33,6 +33,7 @@ def send_message():
 
 
 # Schedule to send message at noon everyday
+# Docs for schedule: https://schedule.readthedocs.io/
 schedule.every().day.at("12:00").do(send_message)
 
 while True:

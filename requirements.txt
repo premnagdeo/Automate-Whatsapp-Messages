@@ -1,2 +1,2 @@
-twilio
+twilio==6.45.4
 schedule
