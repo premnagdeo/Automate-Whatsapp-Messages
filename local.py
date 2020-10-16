@@ -4,10 +4,12 @@ import random
 import schedule
 import time
 
-texts = [
-    "Hi", "Hey", "Hello", "What's up?", "Yo", "Howdy, partner!", "Ahoy, matey!", "How you doin'?",
-    "Aloha", "Hola", "You + Me = Coffee shop in 15 minutes?",
-]
+# Get the texts from texts.txt
+texts = []
+with open('texts.txt') as f:
+    texts = f.readlines()
+texts = [text.strip() for text in texts]
+
 
 # Configuration variables
 account_sid = TWILIO_ACCOUNT_SID

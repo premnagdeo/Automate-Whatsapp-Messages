@@ -6,10 +6,12 @@ import schedule
 import time
 import os
 
-texts = [
-    "Hi", "Hey", "Hello", "What's up?", "Yo", "Howdy, partner!", "Ahoy, matey!", "How you doin'?",
-    "Aloha", "Hola", "You + Me = Coffee shop in 15 minutes?"
-]
+# Get the texts from texts.txt
+texts = []
+with open('texts.txt') as f:
+    texts = f.readlines()
+texts = [text.strip() for text in texts]
+
 
 # Proxy configuration for PythonAnywhere. Reference: https://help.pythonanywhere.com/pages/TwilioBehindTheProxy
 proxy_client = TwilioHttpClient()
