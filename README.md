@@ -1,9 +1,28 @@
-# Automate-Whatsapp-Messages
-An automation Python script to help you schedule Whatsapp Messages using Twilio
+
+
+<div align="center">
+  
+  <h1>Automate Whatsapp Messages</h1>
+  
+   ![banner](readme_images/banner.png)
+   
+   
+  <b align="center">A Python automation script to help you schedule Whatsapp Messages using Twilio </b>
+
+</div>
+
+## Output
+
+Configured to send a random message every hour
+
+<img src="readme_images/output.jpg" height="800">
+
 
 ## Requirements
 
 - Python 3.x
+
+- WhatsApp
 
 - Twilio Account (Trial Account is free)
 
