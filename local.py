@@ -3,6 +3,7 @@ from twilio.rest import Client
 import random
 import schedule
 import time
+from datetime import datetime
 
 # Get the texts from texts.txt
 texts = []
@@ -31,7 +32,7 @@ def send_message():
         to=destination_number
     )
 
-    print(message.sid)
+    print("Sent message: \"{}\" to {} with message ID = {} at time = {}".format(text, destination_number, message.sid, datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
 
 
 # Schedule to send message at noon everyday

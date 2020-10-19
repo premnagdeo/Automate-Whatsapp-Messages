@@ -4,6 +4,7 @@ from twilio.http.http_client import TwilioHttpClient
 import random
 import schedule
 import time
+from datetime import datetime
 import os
 
 # Get the texts from texts.txt
@@ -37,7 +38,7 @@ def send_message():
         to=destination_number
     )
 
-    print(message.sid)
+    print("Sent message: \"{}\" to {} with message ID = {} at time = {}".format(text, destination_number, message.sid, datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
 
 
 # Schedule to send message at noon everyday.
