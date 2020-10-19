@@ -36,8 +36,13 @@ Install all the requirements with pip as follows:
   2. Log in to your <a href="https://www.twilio.com/console">Twilio Dashboard </a>. 
      Under the "Project Info" section, take the note for Account SID and Auth Token (Note: These credential need to be added in config.py).
      
+     ![Twilio Console](readme_images/twilio_console.png)
+     
   3. Go to <a href="https://www.twilio.com/console/sms/whatsapp/sandbox"> Twilio WhatsApp Sandbox </a>. 
      Send a WhatsApp message from your phone to the Twilio Number with the given code. This will enable communication between Twilio and Whatsapp. (Note: This needs to be done on both the number sending the automated messages and the ones receiving the message)
+     
+     ![Twilio Sandbox](readme_images/twilio_sandbox.png)
+     
 
 </details>
 
@@ -82,12 +87,18 @@ Install all the requirements with pip as follows:
         - pythonanywhere.py
         - requirements.txt
         - texts.txt
+        
+    ![PythonAnywhere Files](/readme_images/pythonanywhere_files.png)
+     
 
     - In the Console section, start a new Bash console
+    
+    ![PythonAnywhere Console](/readme_images/pythonanywhere_console.png)
     
     - Run the following commands in the Bash console:
         - ` pip3 install -r requirements.txt --user `
         - ` python3 pythonanywhere.py `
+     
         
   
 ## Support
