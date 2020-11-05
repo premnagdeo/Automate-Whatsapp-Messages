@@ -11,6 +11,13 @@
 
 </div>
 
+## Sample Use Cases:
+
+- Daily Task Reminder
+- Good Morning/Good Night messages
+- Reminder to Drink Water
+- Automated work texts
+
 ## Output
 
 Configured to send a random message every hour
