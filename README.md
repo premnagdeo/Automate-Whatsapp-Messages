@@ -11,7 +11,7 @@
 
 </div>
 
-## Sample Use Cases:
+## Sample Use Case
 
 - Daily Task Reminder
 - Good Morning/Good Night messages
