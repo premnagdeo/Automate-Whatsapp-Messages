@@ -65,7 +65,7 @@ Install all the requirements with pip as follows:
      ![Twilio Console](readme_images/twilio_console.png)
      
   3. Go to <a href="https://www.twilio.com/console/sms/whatsapp/sandbox"> Twilio WhatsApp Sandbox </a>. 
-     Send a WhatsApp message from your phone to the Twilio Number with the given code. This will enable communication between Twilio and Whatsapp. (Note: This needs to be done on both the number sending the automated messages and the ones receiving the message)
+     Send a WhatsApp message from your phone to the Twilio Number with the given code. This will enable communication between Twilio and Whatsapp. (Note: This needs to be done on both the number sending the automated messages and the ones receiving the message. The Sandbox expires after 3 days, to avoid expiry enable WhatsApp on your Twilio Number by following <a href="https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile">Connect Twilio Number to Whatsapp</a>)
      
      ![Twilio Sandbox](readme_images/twilio_sandbox.png)
      
